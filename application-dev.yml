@@ -58,4 +58,6 @@ eform:
 carmel:
   temp-files-upload-path: "E:/uploads/"
   docs-path: "/uploads/"
+  # mention size always in kb
+  docs-allowed-size: 2048
   reports-template-path: "E:/reports-template/"
