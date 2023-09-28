@@ -73,4 +73,5 @@ eform:
 carmel:
   temp-files-upload-path: "/home/ubuntu/tmp/v1/reports-template/"
   docs-path: "/reports-template/"
+  docs-allowed-size: 2048
   reports-template-path: "/home/ubuntu/tmp/v1/reports-template/"
