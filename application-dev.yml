@@ -7,7 +7,7 @@ olive:
     name: "Olive" # This will be used for printing the application name in the front end (e.g. html page title)
     host: "http://localhost:7070/api/olive/1.0/icrm/file/"
 
-assetmine
+assetmine:
   ekyc-icici-credetials: Basic UEhEUnhTQUdGa3dGZ3hyQVE2Q2lwSUFFT0pnT1lMV0E6Tjl3TFYwellrUERrUVZtRw===
 
 two-factor:
