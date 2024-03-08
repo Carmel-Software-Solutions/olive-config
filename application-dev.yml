@@ -12,6 +12,8 @@ assetmine:
   client-id: XeKlgYrzyGMcnTkTrzQyStSbKiLhEAGw
   consumer-key: lb_LdbGj
   client-secret: Qm9ESzqCCMFSHV8C
+bse-star-mf:
+  apikey: VmxST1UyRkhUbkpOVldNOQ==
 
 two-factor:
   api-key: b3d3355a-199a-11eb-b380-0200cd936042
