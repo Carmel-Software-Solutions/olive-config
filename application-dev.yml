@@ -38,7 +38,7 @@ spring:
       password: P@ssw0rd
   servlet:
     multipart:
-      max-file-size: 2MB 
+      max-file-size: 10MB 
       
 upload-path:
   profile-pic-path: /Users/ronaldphilip/olive-uploads      
