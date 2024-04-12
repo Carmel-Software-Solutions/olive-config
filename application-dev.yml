@@ -71,3 +71,4 @@ carmel:
   # mention size always in kb
   docs-allowed-size: 2048
   reports-template-path: "E:/reports-template/"
+  nav-raw-file: "E:/nav/"
