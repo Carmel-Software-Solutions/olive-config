@@ -52,13 +52,13 @@ spring:
             - RemoveRequestHeader=Cookie
             - RewritePath=/api/olive/1.0/kloudKichn/(?<segment>/?.*), /$\{segment}
 
-        - id: olive-guestjini-service
-          uri: lb://guestjini-server
+        - id: transaction-model-service
+          uri: lb://transaction-model-server
           predicates:
-            - Path=/api/olive/1.0/guestjini/**
+            - Path=/api/olive/1.0/transaction-model/**
           filters:
             - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/guestjini/(?<segment>/?.*), /$\{segment}
+            - RewritePath=/api/olive/1.0/transaction-model/(?<segment>/?.*), /$\{segment}
       
         - id: olive-electronic-forms-service
           uri: lb://electronic-forms-server
