@@ -33,9 +33,9 @@ spring:
     generate-ddl: true
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5Dialect    
-  thymeleaf:
-    prefix: file://@project.basedir@/res/templates/
-    cache: fals  
+  # thymeleaf:
+  #   prefix: file://@project.basedir@/res/templates/
+  #   cache: fals  
       
 logging:
   file:
