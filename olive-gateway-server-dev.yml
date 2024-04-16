@@ -69,7 +69,7 @@ spring:
             - RewritePath=/api/olive/1.0/icrm/(?<segment>/?.*), /$\{segment}
         
         - id: transaction-model
-          uri: lb://transactionModel
+          uri: lb://transaction-model-server
           predicates:
             - Path=/api/olive/1.0/transactionModel/**
           filters:
