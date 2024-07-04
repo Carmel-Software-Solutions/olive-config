@@ -74,3 +74,4 @@ carmel:
   temp-files-upload-path: "/home/ubuntu/tmp/v1/reports-template/"
   docs-path: "/reports-template/"
   reports-template-path: "/home/ubuntu/tmp/v1/reports-template/"
+  investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
