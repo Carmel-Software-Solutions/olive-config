@@ -73,7 +73,7 @@ carmel:
   reports-template-path: "E:/reports-template/"
   nav-raw-file: "E:/nav_raw_file/"
   investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
-assetmine :
+assetmine:
   msg-99:
     auth-key: 425051AX0yOrL0rmxR667929e8P1
     template-id : 6679283cd6fc05568d047a52
