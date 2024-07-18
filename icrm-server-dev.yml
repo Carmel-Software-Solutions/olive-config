@@ -1,5 +1,5 @@
 server:
-  port: 7081
+  port: 7080
 
 spring:
   servlet:
@@ -7,7 +7,7 @@ spring:
       max-file-size: 2MB
       max-request-size: 3MB
   application:
-    name: lazaro-server
+    name: icrm-server
 
   security:
     oauth2:
@@ -36,7 +36,7 @@ spring:
       
 logging:
   file:
-    name: ./logs/lazaro-server.log
+    name: ./logs/icrm-server.log
 
 eureka:
   client:
