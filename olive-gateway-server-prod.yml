@@ -98,7 +98,15 @@ spring:
             - Path=/api/olive/1.0/rms/**
           filters:
             - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/rms/(?<segment>/?.*), /$\{segment}    
+            - RewritePath=/api/olive/1.0/rms/(?<segment>/?.*), /$\{segment}
+
+        - id: lazaro
+          uri: lb://lazaro-server
+          predicates:
+            - Path=/api/olive/1.0/lazaro/**
+          filters:
+            - RemoveRequestHeader=Cookie
+            - RewritePath=/api/olive/1.0/lazaro/(?<segment>/?.*), /$\{segment}    
 
 #  security:
 #    oauth2:
