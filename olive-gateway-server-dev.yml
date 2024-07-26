@@ -92,13 +92,13 @@ spring:
             - RemoveRequestHeader=Cookie
             - RewritePath=/api/olive/1.0/rms/(?<segment>/?.*), /$\{segment} 
             
-        - id: lazaro
-          uri: lb://lazaro-server
+        - id: crestone
+          uri: lb://crestone-server
           predicates:
-            - Path=/api/olive/1.0/lazaro/**
+            - Path=/api/olive/1.0/crestone/**
           filters:
             - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/lazaro/(?<segment>/?.*), /$\{segment} 
+            - RewritePath=/api/olive/1.0/crestone/(?<segment>/?.*), /$\{segment} 
 
 #  security:
 #    oauth2:
