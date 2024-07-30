@@ -4,8 +4,8 @@ server:
 spring:
   servlet:
     multipart:
-      max-file-size: 2MB
-      max-request-size: 3MB
+      max-file-size: 30MB
+      max-request-size: 30MB
   application:
     name: transaction-model-server
 
@@ -17,9 +17,9 @@ spring:
 
 # &serverTimezone=UTC
   datasource:
-    url: jdbc:mysql://localhost:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
+    url: jdbc:mysql://10.0.0.31:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
     username: root
-    password: P@ssw0rd
+    password: Pis9uPi8&?
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
 
@@ -33,6 +33,9 @@ spring:
     generate-ddl: true
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5Dialect    
+  # thymeleaf:
+  #   prefix: file://@project.basedir@/res/templates/
+  #   cache: fals  
       
 logging:
   file:
