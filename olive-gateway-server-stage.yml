@@ -28,49 +28,13 @@ spring:
             - RemoveRequestHeader=Cookie
             - RewritePath=/api/olive/1.0/foundation/(?<segment>/?.*), /$\{segment}
 
-      
-
-        
-
-       
-
-        
-      
-        
-        
-        
-        - id: olive-inventory
-          uri: lb://inventory-server
+        - id: transaction-model
+          uri: lb://transaction-model-server
           predicates:
-            - Path=/api/olive/1.0/inventory/**
+            - Path=/api/olive/1.0/transactionModel/**
           filters:
             - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/inventory/(?<segment>/?.*), /$\{segment}
-        
-        - id: wealth-holding
-          uri: lb://wealthHolding-server
-          predicates:
-            - Path=/api/olive/1.0/wealthHolding/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/wealthHolding/(?<segment>/?.*), /$\{segment}
-            
-        - id: rms
-          uri: lb://rms-server
-          predicates:
-            - Path=/api/olive/1.0/rms/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/rms/(?<segment>/?.*), /$\{segment}
-
-        - id: lazaro
-          uri: lb://lazaro-server
-          predicates:
-            - Path=/api/olive/1.0/lazaro/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/lazaro/(?<segment>/?.*), /$\{segment}    
-
+            - RewritePath=/api/olive/1.0/transactionModel/(?<segment>/?.*), /$\{segment}
 #  security:
 #    oauth2:
 #      resourceserver:
