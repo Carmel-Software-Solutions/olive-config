@@ -28,53 +28,16 @@ spring:
             - RemoveRequestHeader=Cookie
             - RewritePath=/api/olive/1.0/foundation/(?<segment>/?.*), /$\{segment}
 
-        - id: olive-real-estate-service
-          uri: lb://real-estate-server
-          predicates:
-            - Path=/api/olive/1.0/realEstate/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/realEstate/(?<segment>/?.*), /$\{segment}
-
-        - id: olive-crm-service
-          uri: lb://icrm-server
-          predicates:
-            - Path=/api/olive/1.0/crm/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/crm/(?<segment>/?.*), /$\{segment}
-
-        - id: olive-kloud-kichn-service
-          uri: lb://kloud-kichn-server
-          predicates:
-            - Path=/api/olive/1.0/kloudKichn/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/kloudKichn/(?<segment>/?.*), /$\{segment}
-
-        - id: olive-guestjini-service
-          uri: lb://guestjini-server
-          predicates:
-            - Path=/api/olive/1.0/guestjini/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/guestjini/(?<segment>/?.*), /$\{segment}
       
-        - id: olive-electronic-forms-service
-          uri: lb://electronic-forms-server
-          predicates:
-            - Path=/api/olive/1.0/electronicForms/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/electronicForms/(?<segment>/?.*), /$\{segment}        
 
-        - id: olive-icrm
-          uri: lb://icrm-server
-          predicates:
-            - Path=/api/olive/1.0/icrm/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/api/olive/1.0/icrm/(?<segment>/?.*), /$\{segment}
+        
+
+       
+
+        
+      
+        
+        
         
         - id: olive-inventory
           uri: lb://inventory-server
