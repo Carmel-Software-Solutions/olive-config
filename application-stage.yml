@@ -69,12 +69,13 @@ eform:
   pdf-templates: "/home/carmel/eForms/pdf-templates/"
   
 carmel:
-  temp-files-upload-path: "E:/uploads/"
-  docs-path: "/uploads/"
+  # absolute path
+  temp-files-upload-path: "/home/ubuntu/tmp/uploads/docs/"
+  # relative path
+  docs-path: "/docs/"
   # mention size always in kb
   docs-allowed-size: 2048
-  reports-template-path: "E:/reports-template/"
-  nav-raw-file: "E:/nav_raw_file/"
+  nav-raw-file: "/home/ubuntu/tmp/uploads/nav_raw_file/"
   investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
 
   
