@@ -76,5 +76,6 @@ carmel:
   reports-template-path: "E:/reports-template/"
   nav-raw-file: "E:/nav_raw_file/"
   investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
+  aws-keys: "/home/ubuntu/tmp/v1/aws-keys/icici_public_key.pem"
 
   
