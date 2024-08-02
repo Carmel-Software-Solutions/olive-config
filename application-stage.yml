@@ -77,5 +77,6 @@ carmel:
   docs-allowed-size: 2048
   nav-raw-file: "/home/ubuntu/tmp/uploads/nav_raw_file/"
   investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
+  aws-keys: "/home/ubuntu/tmp/v1/aws-keys"
 
   
