@@ -5,6 +5,7 @@ olive-locale:
 olive:
   application:
     name: "Olive" # This will be used for printing the application name in the front end (e.g. html page title)
+    host: "http://localhost:7070/api/olive/1.0/icrm/file/"
 assetmine:
     msg-99:
      auth-key: 425051AX0yOrL0rmxR667929e8P1
