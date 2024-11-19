@@ -99,6 +99,13 @@ spring:
           filters:
             - RemoveRequestHeader=Cookie
             - RewritePath=/api/olive/1.0/crestone/(?<segment>/?.*), /$\{segment} 
+        - id: legacy
+          uri: lb://legacy-server
+          predicates:
+            - Path=/api/olive/1.0/legacy/**
+          filters:
+            - RemoveRequestHeader=Cookie
+            - RewritePath=/api/olive/1.0/legacy/(?<segment>/?.*), /$\{segment}            
 
 #  security:
 #    oauth2:
