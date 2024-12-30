@@ -16,7 +16,11 @@ assetmine:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
    template-id : 6679283cd6fc05568d047a52 
 bse-star-mf:
-  apikey: VmxST1UyRkhUbkpOVldNOQ== 
+  apikey: VmxST1UyRkhUbkpOVldNOQ==
+razorpay:
+  key-id: rzp_live_f1B2X2GXij9t5A
+  secret-key: 0UO708aMSFhG5iOvQRKswSJk
+  
 
 two-factor:
   api-key: b3d3355a-199a-11eb-b380-0200cd936042
