@@ -1,2 +1,3 @@
 # olive-config-icrm-prod
-This branch yml are cpnnected to assetmine.olive-suite.com that is online subbroker enrollment portal and live otp integrated
+This yml are connected to the assetmine.olive-suite.com (Assetmine subbroker enrollement site),
+integrated a live OTP (msg99 which is subscribed by Assetmine)
