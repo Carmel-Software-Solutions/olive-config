@@ -12,6 +12,8 @@ assetmine:
   client-id: 17568854-fe6f-4484-9ff8-c8642eb6c602
   consumer-key: lb_LdbGj
   client-secret: kmd8Q~VLY5YFKJMQrSi7~9YjqXKkdtd5TjLVxdrl
+  private-key: E:/AssetMineDocs/transaction_platform/RSA_keys_assetmine/decrypted_private-key.pem
+  
   msg-99:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
    template-id : 6679283cd6fc05568d047a52 
