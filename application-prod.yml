@@ -12,6 +12,8 @@ assetmine:
   client-id: XeKlgYrzyGMcnTkTrzQyStSbKiLhEAGw
   consumer-key: lb_LdbGj
   client-secret: Qm9ESzqCCMFSHV8C
+  private-key: /home/ubuntu/tmp/keys
+  redirect_url: www.google.com
   msg-99:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
    template-id : 6679283cd6fc05568d047a52 
