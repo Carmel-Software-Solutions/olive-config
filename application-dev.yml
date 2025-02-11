@@ -13,7 +13,7 @@ assetmine:
   consumer-key: lb_LdbGj
   client-secret: kmd8Q~VLY5YFKJMQrSi7~9YjqXKkdtd5TjLVxdrl
   private-key: E:/AssetMineDocs/transaction_platform/RSA_keys_assetmine/decrypted_private-key.pem
-  redirect_url: www.google.com
+  redirect-url: www.google.com
   
   msg-99:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
