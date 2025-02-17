@@ -14,7 +14,6 @@ assetmine:
   client-secret: kmd8Q~VLY5YFKJMQrSi7~9YjqXKkdtd5TjLVxdrl
   private-key: E:/AssetMineDocs/transaction_platform/RSA_keys_assetmine/decrypted_private-key.pem
   redirect-url: www.google.com
-  
   msg-99:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
    template-id : 6679283cd6fc05568d047a52 
@@ -23,7 +22,8 @@ bse-star-mf:
 razorpay:
   key-id: rzp_live_f1B2X2GXij9t5A
   secret-key: 0UO708aMSFhG5iOvQRKswSJk
-  
+icici:  
+  public-key: /public-key/icici_public_key.pem 
 
 two-factor:
   api-key: b3d3355a-199a-11eb-b380-0200cd936042
@@ -83,6 +83,4 @@ carmel:
   reports-template-path: "E:/reports-template/"
   nav-raw-file: "E:/nav_raw_file/"
   investor-inception-permissionTemplate: "18cb56b4-6425-4ea3-a8de-27687d533425"
-  aws-keys: "./aws-keys/icici_public_key.pem"
-
   
