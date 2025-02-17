@@ -20,6 +20,8 @@ assetmine:
   s3:
     bucket-name: dev-olive-storage
     path: s3:/dev-olive-storage/nav-raw-file/
+    access-key : "AKIAY4WL7FEQFSRIQLPN"
+    secret-key: "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"
     
 bse-star-mf:
   apikey: VmxST1UyRkhUbkpOVldNOQ==
