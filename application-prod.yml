@@ -16,7 +16,10 @@ assetmine:
   redirect_url: www.google.com
   msg-99:
    auth-key: 425051AX0yOrL0rmxR667929e8P1
-   template-id : 6679283cd6fc05568d047a52 
+   template-id : 6679283cd6fc05568d047a52
+  s3:
+    bucket-name: dev-olive-storage
+    path: s3:/dev-olive-storage/nav-raw-file/ 
 bse-star-mf:
   apikey: VmxST1UyRkhUbkpOVldNOQ== 
 
