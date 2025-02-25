@@ -22,6 +22,8 @@ assetmine:
     path: s3:/dev-olive-storage/nav-raw-file/ 
 bse-star-mf:
   apikey: VmxST1UyRkhUbkpOVldNOQ== 
+icici:  
+  public-key: E:/AssetMineDocs/transaction_platform/icici-public-key/icici_public_key.pem   
 
 two-factor:
   api-key: b3d3355a-199a-11eb-b380-0200cd936042
