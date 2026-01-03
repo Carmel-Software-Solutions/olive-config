@@ -20,7 +20,7 @@ spring:
 
 # &serverTimezone=UTC
   datasource:
-    url: jdbc:mysql://localhost:3306/olive?createDatabaseIfNotExist=true&useLegacyDatetimeCode=false
+    url: jdbc:mysql://localhost:3306/olive?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: P@ssw0rd
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -38,7 +38,7 @@ spring:
     show-sql: true
     generate-ddl: true
     database: mysql
-    database-platform: org.hibernate.dialect.MySQL5Dialect    
+    database-platform: org.hibernate.dialect.MySQLDialect    
       
 logging:
   file:
